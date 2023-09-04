@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/pro_back_img"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+    <ImageView
+        android:id="@+id/techquiz"
+        android:layout_width="170dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/letsstart"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@drawable/dailyearnmoney_2" />
+
+
+    <ImageView
+        android:id="@+id/rlstart"
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:layout_above="@id/techquiz"
+        android:layout_centerInParent="true"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/earnmoneydaily_7" />
+
+    <RelativeLayout
+        android:id="@+id/letsstart"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@+id/banner_container"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif_first"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/earnmoney_132" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gif_second"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:src="@drawable/earnmoney_134" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:id="@+id/adViewContainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+
+            </RelativeLayout>
+
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/main_act_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:shimmer_auto_start="true"
+                app:shimmer_base_alpha="1"
+                app:shimmer_direction="left_to_right"
+                app:shimmer_duration="1000"
+                app:shimmer_highlight_alpha="0.5"
+                app:shimmer_highlight_color="@color/white"
+                app:shimmer_intensity="0"
+                app:shimmer_repeat_mode="restart"
+                app:shimmer_shape="linear">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:src="@drawable/realmoney6" />
+
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

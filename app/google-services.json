@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862269466749",
+    "project_id": "watch-video-and-earn-mon-ba53e",
+    "storage_bucket": "watch-video-and-earn-mon-ba53e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862269466749:android:bbae8cd3d4bdb165626914",
+        "android_client_info": {
+          "package_name": "watchvideo.dailytrend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862269466749-n7svin31k6057v3ldoqbi360qsn9mb6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsVEOzD_Ca-CDz-PY61TDTx3-caauRXY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862269466749-n7svin31k6057v3ldoqbi360qsn9mb6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

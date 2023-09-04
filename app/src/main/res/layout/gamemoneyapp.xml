@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/dialog"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="40dp"
+        android:background="@drawable/coins_dilog_back">
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@id/dialog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-90dp"
+        android:background="@drawable/troffy_shap">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:padding="0dp"
+            android:src="@drawable/default_profile_image"
+            app:riv_corner_radius="60dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/midle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/top"
+        android:layout_marginTop="70dp"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/bold"
+            android:text="Note : Enter Proper Email - Address"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_enter_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/midle"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_back"
+        android:fontFamily="@font/bold"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#6FFFFFFF"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_enter_email"
+        android:layout_marginHorizontal="55dp"
+        android:layout_marginTop="17dp">
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="2"
+            android:background="@drawable/pending_task">
+
+            <TextView
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="2"
+            android:background="@drawable/claim_back">
+
+            <TextView
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/bold"
+                android:gravity="center"
+                android:text="Ok"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

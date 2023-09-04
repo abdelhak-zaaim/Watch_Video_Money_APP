@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:drawable="@drawable/realmoneygame_12">
+    <target
+        android:name="path_2"
+        android:animation="@animator/realmoney" />
+</animated-vector>

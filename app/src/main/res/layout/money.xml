@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/earnmoney_112"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp">
+
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:indicatorColor="@color/white"
+        android:layout_centerInParent="true"
+        app:indicatorName="BallSpinFadeLoaderIndicator" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loading ads..."
+        android:layout_below="@id/avi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

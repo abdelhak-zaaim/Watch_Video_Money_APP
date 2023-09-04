@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="White">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="teal_700">#ff018786</color>
+    <color name="tool_background">#7d0d26</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_grey">#c8000000</color>
+    <color name="two">#efcfc0</color>
+    <color name="gray">#c4c4c4</color>
+    <color name="gray_color">#ccc</color>
+    <color name="grey">#f0f0f0</color>
+    <color name="one">#cc0001</color>
+    <color name="pink">#c11265</color>
+    <color name="purple_500">#ff000000</color>
+    <color name="purple_700">#ff000000</color>
+    <color name="red">#ff0000</color>
+    <color name="teal_200">#ff03dac5</color>
+    <color name="colorAccent">#EF105C</color>
+    <color name="colorPlaceHolder">#bcbcbc</color>
+    <color name="colorPrimary">#6858E4</color>
+    <color name="colorPrimaryDark">#3F377A</color>
+    <color name="colorTagText">#aaaaaa</color>
+    <color name="colorTextIcon">#727272</color>
+    <color name="colornSelected">#b3abb2</color>
+    <color name="g1">#0a86be</color>
+    <color name="g2">#0a86be</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffc000</color>
+
+    <color name="transparent1">#00000000</color>
+
+</resources>

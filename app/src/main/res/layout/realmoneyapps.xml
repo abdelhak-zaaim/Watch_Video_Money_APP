@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.lsjwzh.widget.recyclerviewpager.RecyclerViewPager
+        android:id="@+id/recyclerImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rvp_singlePageFling="true"
+        tools:ignore="MissingConstraints" />
+
+    <com.kingfisher.easyviewindicator.AnyViewIndicator
+        android:id="@+id/view_pager_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:avi_animation_enable="false"
+        app:avi_drawable="@drawable/moneyapp_11"
+        app:avi_drawable_unselected="@drawable/moneyapp_10"
+        app:avi_height="10dp"
+        app:avi_margin="5dp"
+        app:avi_width="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerImages"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

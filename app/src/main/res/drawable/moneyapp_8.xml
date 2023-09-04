@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:drawable="@drawable/moneyapp_9">
+    <target
+        android:name="group"
+        android:animation="@animator/dailyearnmoney" />
+    <target
+        android:name="path_3"
+        android:animation="@animator/getrealmoney" />
+    <target
+        android:name="path_4"
+        android:animation="@animator/watchvideoandearnmoney" />
+    <target
+        android:name="path_5"
+        android:animation="@animator/moneyapp" />
+</animated-vector>

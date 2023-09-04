@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="watchvideo.dailytrend">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+
+
+    <application
+        android:name="watchvideo.dailytrend.realmoney_24"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/moneyapp_19"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/moneyapp_19"
+        android:supportsRtl="true"
+        android:theme="@style/Theme_WatchVideo"
+        android:usesCleartextTraffic="true">
+
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_83"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_86"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_81"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_88"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_85"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_96"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_84"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_87"
+            android:exported="true"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_6.RealMoney_100.realcash"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_6.RealMoney_100.RealMoney_103"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_6.RealMoney_100.RealMoney_102"
+            android:exported="true" />
+
+        <service
+            android:name="watchvideo.dailytrend.Earnmoney_6.EarnMoney_105.EarnMoney_112"
+            android:enabled="true"
+            android:exported="false"
+            android:stopWithTask="false" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.SlotMachinegame"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_93"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.ScratchCard"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_85"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_82"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_90"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_86"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_92"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_83"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_89"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.WatchVideoEarnmoney"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_90"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_91"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_87"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_89"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="watchvideo.dailytrend.VideoCall.videocalling"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Realmoney_3.realmoney_47.realmoney_39"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Realmoney_3.realmoney_47.realmoney_41"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Realmoney_3.realmoney_47.realmoney_40"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_88"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.RealMoney_82"
+            android:exported="true" />
+
+        <activity
+            android:name="watchvideo.dailytrend.Earnmoney_2.EarnMoney_81"
+            android:exported="true" />
+
+        <receiver
+            android:name="watchvideo.dailytrend.Earnmoney_4.earnmoney_60"
+            android:enabled="true" />
+
+        <receiver
+            android:name="watchvideo.dailytrend.Earnmoney_4.earnmoney_58"
+            android:enabled="true" />
+
+        <receiver
+            android:name="watchvideo.dailytrend.Earnmoney_4.earnmoney_61"
+            android:enabled="true" />
+
+        <receiver
+            android:name="watchvideo.dailytrend.Earnmoney_4.SlotMachine"
+            android:enabled="true" />
+
+        <receiver
+            android:name="watchvideo.dailytrend.Earnmoney_4.earnmoney_59"
+            android:enabled="true" />
+
+        <receiver
+            android:name="watchvideo.dailytrend.Earnmoney_4.ScratchCard"
+            android:enabled="true" />
+
+        <service android:name="watchvideo.dailytrend.realmoney_23"/>
+        <service android:name="watchvideo.dailytrend.earnmoney_23"/>
+
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="watchvideo.dailytrend.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/moneyapp"/>
+
+        </provider>
+
+
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <meta-data android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <receiver
+            android:name="com.onesignal.NotificationDismissReceiver"
+            android:exported="true"/>
+
+        <receiver
+            android:name="com.onesignal.BootUpReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Daily Watch Video Status</string>
+
+    <string name="home_text">Earn Money</string>
+    <string name="amazon_gift_card">Amazon Gift Card</string>
+    <string name="paytm_gift_card">Paytm Gift Card</string>
+    <string name="paypal_gift_card">Paypal Gift Card</string>
+    <string name="xbox_gift_card">Xbox Gift Card</string>
+    <string name="play_station_gift_card">Play Station Gift Card</string>
+    <string name="steam_wallet_gift_card">Steam Wallet Gift Card</string>
+    <string name="visa_gift_card">Visa Gift Card</string>
+    <string name="itunes_gift_card">Itunes Gift Card</string>
+    <string name="google_play_gift_card">Google Play Gift Card</string>
+    <string name="p_1">60,000 Coins</string>
+    <string name="p_10">2,00,000 Coins</string>
+    <string name="p_2">70,000 Coins</string>
+    <string name="p_3">80,000 Coins</string>
+    <string name="p_4">90,000 Coins</string>
+    <string name="p_5">1,00,000 Coins</string>
+    <string name="p_6">1,10,000 Coins</string>
+    <string name="p_7">1,35,000 Coins</string>
+    <string name="p_8">1,50,000 Coins</string>
+    <string name="p_9">1,75,000 Coins</string>
+    <string name="m_1">350</string>
+    <string name="m_10">20000</string>
+    <string name="m_2">800</string>
+    <string name="m_3">1350</string>
+    <string name="m_4">1600</string>
+    <string name="m_5">2150</string>
+    <string name="m_6">2600</string>
+    <string name="m_7">5000</string>
+    <string name="m_8">7500</string>
+    <string name="m_9">10000</string>
+    <string name="enter_referral_code">Enter Your Referral Code</string>
+    <string name="save_img">save video</string>
+    <string name="views">Views</string>
+    <string name="check_internet">Check Your Connection</string>
+    <string name="ok">Ok</string>
+    <string name="dir_name">Full Screen Video Status</string>
+    <string name="landscape">Landscape</string>
+
+    <string name="ad_attribution">Ad</string>
+
+
+</resources>
